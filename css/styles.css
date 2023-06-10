@@ -167,7 +167,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navy-blue-color);
+    color:  #404bbf;;
     padding: 24px 0;
     transition-property: color;
     transition-duration: 250ms;
@@ -649,6 +649,11 @@ margin-bottom: 72px;
 
 }
 
+.card-portfolio-list:focus .portfolio-cover-text {
+    transform: translate(0);
+
+}
+
 .portfolio-link {
 display: block;
 transition-property: box-shadow;
@@ -663,7 +668,7 @@ transition-property: box-shadow;
 
 .portfolio-link:focus {
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    transform: translateY(100%);
+    /* transform: translateY(100%); */
 }
 
 .portfolio-cover-wrap {
