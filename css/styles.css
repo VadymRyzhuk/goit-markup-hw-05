@@ -645,12 +645,12 @@ margin-bottom: 72px;
 }
 
 .card-portfolio-list:hover .portfolio-cover-text {
-    transform: translate(0);
+    transform: translateY(0);
 
 }
 
 .card-portfolio-list:focus .portfolio-cover-text {
-    transform: translate(0);
+    transform: translateY(0);
 
 }
 
